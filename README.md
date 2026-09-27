@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/AayushM100/Leetcode/tree/master/0035-search-insert-position) |
 | [0904-fruit-into-baskets](https://github.com/AayushM100/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0905-sort-array-by-parity](https://github.com/AayushM100/Leetcode/tree/master/0905-sort-array-by-parity) |
 ## Hash Table
@@ -37,4 +38,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/AayushM100/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/AayushM100/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/AayushM100/Leetcode/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
