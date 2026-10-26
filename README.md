@@ -36,10 +36,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/AayushM100/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/AayushM100/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/AayushM100/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/AayushM100/Leetcode/tree/master/0035-search-insert-position) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/AayushM100/Leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/AayushM100/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
