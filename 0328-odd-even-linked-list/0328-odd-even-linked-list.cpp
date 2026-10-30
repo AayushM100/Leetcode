@@ -15,43 +15,22 @@ public:
             return head;
         }
 
-        ListNode* temp = head;
-        vector<int> ans;
+        ListNode* odd = head;
+        ListNode* even = head->next;
+        ListNode* evenHead = head->next;
 
-        // for odd indices
-        while (temp != NULL && temp->next != NULL) {
-            ans.push_back(temp->val);
-            temp = temp->next->next;
+        while (even && even->next) {
+            //changing the links
+            odd->next = odd->next->next;
+            even->next = even->next->next;
+
+            //move the pointers
+            odd = odd->next;
+            even = even->next;
         }
 
-        // edge case
-        if (temp != NULL) {
-            ans.push_back(temp->val);
-        }
-
-        temp = head->next;
-
-        // for even indices
-        while (temp != NULL && temp->next != NULL) {
-            ans.push_back(temp->val);
-            temp = temp->next->next;
-        }
-
-        // edge case
-        if (temp != NULL) {
-            ans.push_back(temp->val);
-        }
-
-        temp = head;
-        int i = 0;
-
-
-        //replacing node data
-        while(temp != NULL){
-            temp->val = ans[i];
-            temp = temp->next;
-            i++;
-        }
+        //linking the even nodes head to last node of the odds
+        odd->next = evenHead;
 
         return head; 
     }
